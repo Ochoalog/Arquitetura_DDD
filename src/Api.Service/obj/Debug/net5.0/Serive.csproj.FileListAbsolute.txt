@@ -1,0 +1,12 @@
+C:\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\Serive.deps.json
+C:\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\Serive.dll
+C:\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\ref\Serive.dll
+C:\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\Serive.pdb
+C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Serive.GeneratedMSBuildEditorConfig.editorconfig
+C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Serive.AssemblyInfoInputs.cache
+C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Serive.AssemblyInfo.cs
+C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Serive.csproj.CoreCompileInputs.cache
+C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Serive.dll
+C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\ref\Serive.dll
+C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Serive.pdb
+C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Serive.csproj.AssemblyReference.cache
