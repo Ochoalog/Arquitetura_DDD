@@ -10,3 +10,9 @@ C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.C
 C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.dll
 C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\ref\CrossCutting.dll
 C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.pdb
+C:\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net5.0\Data.dll
+C:\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net5.0\Domain.dll
+C:\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net5.0\Service.dll
+C:\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net5.0\Domain.pdb
+C:\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net5.0\Service.pdb
+C:\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net5.0\Data.pdb
