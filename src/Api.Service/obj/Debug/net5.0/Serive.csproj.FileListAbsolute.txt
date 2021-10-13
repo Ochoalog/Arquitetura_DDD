@@ -10,3 +10,10 @@ C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Serive.dll
 C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\ref\Serive.dll
 C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Serive.pdb
 C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Serive.csproj.AssemblyReference.cache
+C:\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\CrossCutting.dll
+C:\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\Data.dll
+C:\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\Domain.dll
+C:\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\Domain.pdb
+C:\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\Data.pdb
+C:\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\CrossCutting.pdb
+C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Serive.csproj.CopyComplete
