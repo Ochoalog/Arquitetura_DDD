@@ -17,16 +17,28 @@ namespace Api.Data.Repository
       _context = context;
       _dataset = context.Set<T>();
     }
-    public Task<bool> DeleteAsync(Guid id)
+    public async Task<bool> DeleteAsync(Guid id)
     {
-      throw new NotImplementedException();
+      try
+      {
+        var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
+        if (result == null) return false;
+
+        _dataset.Remove(result);
+        await _context.SaveChangesAsync();
+        return true;
+      }
+      catch (Exception ex)
+      {
+        throw ex;
+      }
     }
 
     public async Task<T> InsertAsync(T item)
     {
       try
       {
-        if(item.Id == Guid.Empty) 
+        if (item.Id == Guid.Empty)
         {
           item.Id = Guid.NewGuid();
         }
@@ -37,21 +49,40 @@ namespace Api.Data.Repository
         await _context.SaveChangesAsync();
       }
       catch (Exception ex)
-      {          
+      {
         throw ex;
       }
 
       return item;
     }
 
-    public Task<T> SelectAsync(Guid id)
+    public async Task<bool> ExistAsync(Guid id)
     {
-      throw new NotImplementedException();
+      return await _dataset.AnyAsync(p => p.Id.Equals(id));
     }
 
-    public Task<IEnumerable<T>> SelectAsync()
+    public async Task<T> SelectAsync(Guid id)
     {
-      throw new NotImplementedException();
+      try
+      {
+        return await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
+      }
+      catch (Exception ex)
+      {
+        throw ex;
+      }
+    }
+
+    public async Task<IEnumerable<T>> SelectAsync()
+    {
+      try
+      {
+        return await _dataset.ToListAsync();
+      }
+      catch (Exception ex)
+      {
+        throw ex;
+      }
     }
 
     public async Task<T> UpdateAsync(T item)
@@ -59,16 +90,16 @@ namespace Api.Data.Repository
       try
       {
         var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(item.Id));
-        if(result == null) return null;
+        if (result == null) return null;
 
         item.UpdateAt = DateTime.UtcNow;
-        item.CreateAt= result.CreateAt;
+        item.CreateAt = result.CreateAt;
 
         _context.Entry(result).CurrentValues.SetValues(item);
         await _context.SaveChangesAsync();
       }
       catch (Exception ex)
-      {          
+      {
         throw ex;
       }
 
