@@ -14,3 +14,4 @@ C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Service.dll
 C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\ref\Service.dll
 C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Service.pdb
 C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+C:\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\Service.csproj.CopyComplete
