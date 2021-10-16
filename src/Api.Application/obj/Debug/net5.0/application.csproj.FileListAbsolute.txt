@@ -64,6 +64,5 @@ C:\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Service.pdb
 C:\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\CrossCutting.pdb
 C:\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Domain.pdb
 C:\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Data.pdb
-C:\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\application.csproj.CopyComplete
 C:\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\AutoMapper.dll
 C:\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
