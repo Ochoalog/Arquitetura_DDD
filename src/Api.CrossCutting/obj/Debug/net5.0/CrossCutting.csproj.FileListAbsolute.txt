@@ -16,4 +16,3 @@ C:\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net5.0\Service.dll
 C:\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net5.0\Domain.pdb
 C:\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net5.0\Service.pdb
 C:\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net5.0\Data.pdb
-C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.CopyComplete

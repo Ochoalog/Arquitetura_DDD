@@ -26,7 +26,16 @@ namespace application
       services.AddControllers();
       services.AddSwaggerGen(c =>
       {
-        c.SwaggerDoc("v1", new OpenApiInfo { Title = "application", Version = "v1" });
+        c.SwaggerDoc("v1", new OpenApiInfo
+        {
+          Title = "Api DDD",
+          Version = "v1",
+          Contact = new OpenApiContact
+          {
+            Name = "Vitor Macedo Ochoa",
+            Email = "vitor-ochoa@uergs.edu.br"
+          }
+        });
       });
     }
 
@@ -37,7 +46,11 @@ namespace application
       {
         app.UseDeveloperExceptionPage();
         app.UseSwagger();
-        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "application v1"));
+        app.UseSwaggerUI(c =>
+        {
+          c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api DDD");
+          c.RoutePrefix = string.Empty;
+        });
       }
 
       app.UseRouting();
