@@ -66,7 +66,11 @@ namespace Api.Service.Services
             }
             else
             {
-                return null;
+                return new
+                {
+                    authenticated = false,
+                    message = "Falha na autenticação."
+                };
             }
         }
 
