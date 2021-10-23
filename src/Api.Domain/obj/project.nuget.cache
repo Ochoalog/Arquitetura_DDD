@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "byTFSe7kGre9uoSuRZjsVDJF3rNephJdxS5mRrOLCRIU0HKIGKelmxUMe9eJIvGfeHvVrZ1460e9L2+g0dTg7A==",
+  "dgSpecHash": "u+IXnVT2uIHrrgV9ECdNkc6nPPUgSdCqgRiJJIeXR+/SfDoM5r0DS8S5/m4DvFm/imKohcb98a+Oix5AKqQ8kQ==",
   "success": true,
   "projectFilePath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ochoavit\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\ochoavit\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.13.1\\microsoft.identitymodel.jsonwebtokens.6.13.1.nupkg.sha512",
+    "C:\\Users\\ochoavit\\.nuget\\packages\\microsoft.identitymodel.logging\\6.13.1\\microsoft.identitymodel.logging.6.13.1.nupkg.sha512",
+    "C:\\Users\\ochoavit\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.13.1\\microsoft.identitymodel.tokens.6.13.1.nupkg.sha512",
+    "C:\\Users\\ochoavit\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.13.1\\system.identitymodel.tokens.jwt.6.13.1.nupkg.sha512",
+    "C:\\Users\\ochoavit\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
