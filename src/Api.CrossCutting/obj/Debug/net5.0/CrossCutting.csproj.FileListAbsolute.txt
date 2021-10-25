@@ -13,7 +13,6 @@ C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.Generate
 C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.AssemblyInfoInputs.cache
 C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.AssemblyInfo.cs
 C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.CoreCompileInputs.cache
-C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.CopyComplete
 C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.dll
 C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\ref\CrossCutting.dll
 C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.pdb
