@@ -66,3 +66,4 @@ C:\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\application.dll
 C:\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\ref\application.dll
 C:\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\application.pdb
 C:\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\application.genruntimeconfig.cache
+C:\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\application.csproj.CopyComplete

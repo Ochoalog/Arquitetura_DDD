@@ -16,3 +16,4 @@ C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.C
 C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.dll
 C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\ref\CrossCutting.dll
 C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.pdb
+C:\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.CopyComplete
