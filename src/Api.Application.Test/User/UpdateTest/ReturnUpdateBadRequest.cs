@@ -13,12 +13,12 @@ using Xunit;
 
 namespace Api.Application.Test.User.UpdateTest
 {
-    public class ReturnBadRequest
+    public class ReturnDeleteBadRequest
     {
         private UsersController _controller;
 
         [Fact]
-        public async Task CallUpdate()
+        public async Task CallDelete()
         {
             var serviceMock = new Mock<IUserService>();
 
