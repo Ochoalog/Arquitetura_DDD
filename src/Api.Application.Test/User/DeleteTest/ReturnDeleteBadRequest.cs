@@ -18,7 +18,7 @@ namespace Api.Application.Test.User.DeleteTest
         private UsersController _controller;
 
         [Fact]
-        public async Task CallUpdate()
+        public async Task CallDeleteError()
         {
             var serviceMock = new Mock<IUserService>();
 

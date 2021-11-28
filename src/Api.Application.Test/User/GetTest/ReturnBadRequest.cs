@@ -17,7 +17,7 @@ namespace Api.Application.Test.User.GetTest
         private UsersController _controller;
 
         [Fact]
-        public async Task CallGet()
+        public async Task CallGetError()
         {
             var serviceMock = new Mock<IUserService>();
 
