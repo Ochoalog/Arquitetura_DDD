@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Dtos.Cep
 {
-    internal class CepDtoCreateResult
+    public class CepDtoCreateResult
     {
         public Guid Id { get; set; }
         public string Cep { get; set; }
