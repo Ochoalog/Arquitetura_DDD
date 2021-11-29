@@ -9,18 +9,18 @@ using System.Threading.Tasks;
 
 namespace Data.Mapping
 {
-    public class MunicipioMap : IEntityTypeConfiguration<MunicipioEntity>
+    public class CepMap : IEntityTypeConfiguration<CepEntity>
     {
-        public void Configure(EntityTypeBuilder<MunicipioEntity> builder)
+        public void Configure(EntityTypeBuilder<CepEntity> builder)
         {
             builder.ToTable("Municipio");
 
             builder.HasKey(u => u.Id);
 
-            builder.HasIndex(u => u.CodIBGE);
+            builder.HasIndex(u => u.Cep);
 
-            builder.HasOne(u => u.Uf)
-                .WithMany(m => m.Municipios);
+            builder.HasOne(m => m.Municipio)
+                .WithMany(c => c.Ceps);
         }
     }
 }
