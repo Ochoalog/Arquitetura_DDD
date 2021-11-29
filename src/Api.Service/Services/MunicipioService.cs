@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Service.Services
 {
-    internal class MunicipioService : IMunicipioService
+    public class MunicipioService : IMunicipioService
     {
         private readonly IMunicipioRepository _repository;
 

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Service.Services
 {
-    internal class UfService : IUfService
+    public class UfService : IUfService
     {
         private readonly IUfRepository _repository;
 
