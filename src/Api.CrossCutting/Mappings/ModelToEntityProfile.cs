@@ -1,6 +1,8 @@
 using Api.Domain.Entities;
 using Api.Domain.Models;
 using AutoMapper;
+using Domain.Entities;
+using Domain.Models;
 
 namespace Api.CrossCutting.Mappings
 {
@@ -9,6 +11,9 @@ namespace Api.CrossCutting.Mappings
         public ModelToEntityProfile()
         {
             CreateMap<UserEntity, UserModel>().ReverseMap();
+            CreateMap<UfEntity, UfModel>().ReverseMap();
+            CreateMap<MunicipioEntity, MunicipioModel>().ReverseMap();
+            CreateMap<CepEntity, CepModel>().ReverseMap();
         }
     }
 }

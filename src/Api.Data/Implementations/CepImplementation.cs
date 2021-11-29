@@ -12,13 +12,21 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Api.Data.Implementations
 {
-    public class UfImplementation : BaseRepository<UfEntity>, IUfRepository
+    public class CepImplementation : BaseRepository<CepEntity>, ICepRepository
     {
-        private DbSet<UfEntity> _dataset;
+        private DbSet<CepEntity> _dataset;
 
-        public UfImplementation(MyContext context) : base(context)
+        public CepImplementation(MyContext context) : base(context)
         {
-            _dataset = context.Set<UfEntity>();
+            _dataset = context.Set<CepEntity>();
+        }
+
+        public async Task<CepEntity> SelectAsync(string cep)
+        {
+            return await _dataset
+                .Include(c => c.Municipio)
+                .ThenInclude(m => m.Uf)
+                .FirstOrDefaultAsync(u => u.Cep.Equals(cep));                          
         }
     }
 }
