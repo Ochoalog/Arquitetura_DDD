@@ -13,7 +13,7 @@ namespace Data.Mapping
     {
         public void Configure(EntityTypeBuilder<CepEntity> builder)
         {
-            builder.ToTable("Municipio");
+            builder.ToTable("Cep");
 
             builder.HasKey(u => u.Id);
 
