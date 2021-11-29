@@ -11,6 +11,6 @@ namespace Domain.Repository
     public interface IMunicipioRepository : IRepository<MunicipioEntity>
     {
         Task<MunicipioEntity> GetCompleteById(Guid id);
-        Task<MunicipioEntity> GetCompleteBtIBGE(int codIBGE);
+        Task<MunicipioEntity> GetCompleteByIBGE(int codIBGE);
     }
 }
