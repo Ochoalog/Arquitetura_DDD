@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Dtos.Municipio
 {
-    public class MunicipioCreate
+    public class MunicipioDtoCreate
     {
         [Required]
         [StringLength(60)]

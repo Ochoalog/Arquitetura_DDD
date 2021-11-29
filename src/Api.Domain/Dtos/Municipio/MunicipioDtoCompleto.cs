@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace Domain.Dtos.Municipio
 {
-    public class MunicipioCompleto
+    public class MunicipioDtoCompleto
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
         public int CodIBGE { get; set; }
         public Guid UfId { get; set; }
-
         public UfDto Uf { get; set; }
     }
 }
